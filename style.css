@@ -1,0 +1,66 @@
+body{
+    background-image: url("./images/IUE_FONDO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 20px 0px 20px;
+}
+#porfile-image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#logo-iue{
+    height: 200px;
+    width: 200px;
+}
+.box{
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.50);
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > * {
+    margin: 0 10px;
+}
+#data {
+    flex-grow: 1;
+    text-align: center;
+}
+li{
+    list-style-type:none
+}
+.content > article{
+    margin: 20px 0px 20px 0px;
+}
+#activities{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+#activities > .box{
+    flex-grow: 1;
+}
+h3{
+    margin: 0;
+}
+footer{
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0 !important; 
+    padding: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p.right{
+    text-align: right;
+}
